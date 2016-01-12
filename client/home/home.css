@@ -12,7 +12,7 @@
 #inputs {
     z-index: 10;
     top: 10px;
-    left: 10px;
+    left: 42px;
     height: 50px;
 }
 
@@ -35,7 +35,7 @@
     left: 10px;
 }
 
-.ui-button {
+#button {
   background:#3887BE;
   color:#FFF;
   display:block;
@@ -49,7 +49,15 @@
   border:1px solid rgba(0,0,0,0.4);
   border-radius:3px;
   }
-  .ui-button:hover {
+  #button:hover {
     background:#3074a4;
     color:#fff;
     }
+
+.mapbox-directions-profile {
+  display: none;
+}
+
+.leaflet-control-attribution {
+  display: none;
+}
