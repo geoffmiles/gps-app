@@ -1,0 +1,39 @@
+<template name='driving'>
+	<div class='container-fluid'>
+		<div class='row'>
+			<div id='top-panel'>
+			    <div class='row input'>
+			    	<div class='col-xs-2'>
+			    		<button class='button'><span class="icon glyphicon glyphicon-menu-left"></span></button>
+			    	</div>
+			     	<div class='col-xs-8'>	
+			    		<input id="origin-input" class="controls" type="text" placeholder="Enter a Start Address">
+			    	</div>
+			    	<div class='col-xs-2'>
+			    		<button class='button' id='setValue' ><span class="icon glyphicon glyphicon-map-marker"></span></button>
+			    	</div>
+			    </div>
+			    <div class='row input'>
+			    	<div class='col-xs-2'></div>
+			    	<div class='col-xs-8'>
+			    		<input id="destination-input" class="controls" type="text" placeholder="Enter a Destination ">
+			    	</div>
+			    	<div class='col-xs-2'>
+			    		<button class='button'><i class="fa fa-car fa-4x"></i></button>
+			    	</div>
+			    </div>
+			   	
+			</div>
+		</div>
+		<div class='row'>
+			<div id='map'></div>
+		</div>
+		<div class='row'>
+			<div id='bottom-panel'>
+				<p id='dist-dur'></p>
+			</div>
+			<button id='go' class='button'>GO</button>
+		</div>
+	</div>
+	<div></div>
+</template>

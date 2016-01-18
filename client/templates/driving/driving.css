@@ -1,0 +1,141 @@
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100vh;
+        width: 100vw;
+      }
+
+.container-fluid {
+  padding: 0px;
+  margin: 0px;
+}
+
+.input {
+  margin-top: 30px;
+  height: 80px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#top-panel {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 250px;
+  z-index: 5;
+  background-color: #6253B0;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+#bottom-panel {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 140px;
+  z-index: 5;
+  background-color: #6253B0;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+#origin-input,
+#destination-input {
+  border: none;
+  background-color: #8772F2;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #6253B0;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  display: block;
+  margin: 0px;
+  height: 80px;
+  width: 100%;
+  line-height: 40px; 
+  font-size: 35px;
+}
+
+::-webkit-input-placeholder{
+  color: #6253B0;
+}
+
+.button {
+  background-color: #6253B0;
+  border: none;
+  height: 80px;
+  padding: 0px;
+}
+
+i {
+  height: 80px;
+  color: #8772F2;
+}
+
+p {
+  font-size: 80px;
+  color: #8772F2;
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 80px;
+  line-height: 80px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  float: left;
+}
+
+#go {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #8772F2;
+    border-radius: 50%;
+    color:#6253B0;
+    background: #8772F2;
+    font-size: 120px;
+    font-weight:bold;
+    bottom: 30px;
+    right: 50px;
+    z-index: 100;
+}
+
+.icon {
+  font-size: 80px;
+  color: #8772F2;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+
+.pac-container {
+  background-color: #6253B0 !important;
+  border-top: 1px solid #6253B0;
+}
+
+.pac-icon {
+  display: none !important;
+}
+
+.pac-item {
+  height: 80px !important;
+  font-size: 35px !important;
+  padding: 22px 0 23px 0 !important;
+  background-color: #8772F2 !important;
+  color: #6253B0;
+  border-top: 1px solid #6253B0;
+}
+
+.pac-item-query {
+  font-size: 35px !important;
+  padding: 0 11px 0 13px !important;
+}
